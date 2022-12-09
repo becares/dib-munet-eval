@@ -1,1 +1,3 @@
 dataset/*
+nnUnet/*
+src/__pycache__/*
