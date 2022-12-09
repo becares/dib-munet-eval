@@ -1,9 +1,8 @@
-import numpy as np
 from batchgenerators.utilities.file_and_folder_operations import *
 from dataset_conversion import generate_dataset_json
-from nnunet.paths import nnUNet_raw_data, preprocessing_output_dir
 from file_conversions import convert_2d_image_to_nifti
-from skimage import io, color
+from nnunet.paths import nnUNet_raw_data
+
 
 if __name__ == '__main__':
     """

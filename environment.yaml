@@ -3,20 +3,22 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.5
-  - tqdm=4.48.2
-  - dicom2nifti=2.2.10
-  - scikit-image=0.17.2
-  - medpy=0.4.0
-  - scipy=1.5.2
-  - numpy=1.19.1
-  - scikit-learn=0.23.2
-  - SimpleITK=1.2.4
-  - pandas=1.1.1
+  - tqdm
+  - dicom2nifti
+  - scikit-image>=0.14
+  - medpy
+  - scipy
+  - numpy
+  - SimpleITK
+  - pandas
+  - requests
+  - nibabel 
+  - tifffile 
+  - matplotlib
   - pip
-  - git
   - pip:
-    - batchgenerators==0.21
-    - torch==1.6
+    - torch>1.10.0
+    - sklearn
+    - batchgenerators>=0.23
     - nnunet
     - git+https://github.com/FabianIsensee/hiddenlayer.git@more_plotted_details#egg=hiddenlayer

@@ -1,4 +1,11 @@
 # Evaluation of nn-Unet architecture for Document Image Binarization
+## TODOs:
+* Solve problem with CUDA compatibility
+* Migrate all datasets to the nnUnet format
+* Execute dummy training in my laptop
+* Migrate to the lab machine and solve problems
+* Execute training and hope for not having any errors
+
 ## Installation
 1. Install conda or miniconda: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
