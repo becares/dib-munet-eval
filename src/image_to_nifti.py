@@ -109,4 +109,8 @@ if __name__ == '__main__':
     for the whole cross-validation. Spoiler: it will determine not to run postprocessing anyways. If you are using
     a different 2D dataset, you can make nnU-Net determine the postprocessing by using the
     `nnUNet_determine_postprocessing` command
+
+    prediction command:
+
+    > nnUNet_predict -i /home/ertozi/Documents/Master/S3/ProjCV/nnUnet/nnUNet_raw_data_base/nnUNet_raw_data/Task999_dummy/imagesTs/ -o /home/ertozi/results -t 999 -m 2d
     """
