@@ -1,0 +1,16 @@
+tqdm
+dicom2nifti
+scikit-image
+medpy
+scipy
+numpy
+SimpleITK
+pandas
+requests
+nibabel
+tifffile
+matplotlib
+torch
+sklearn
+batchgenerators
+nnunet

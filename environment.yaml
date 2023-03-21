@@ -5,7 +5,7 @@ channels:
 dependencies:
   - tqdm
   - dicom2nifti
-  - scikit-image>=0.14
+  - scikit-image
   - medpy
   - scipy
   - numpy
@@ -17,8 +17,7 @@ dependencies:
   - matplotlib
   - pip
   - pip:
-    - torch>1.10.0
+    - torch
     - sklearn
-    - batchgenerators>=0.23
+    - batchgenerators
     - nnunet
-    - git+https://github.com/FabianIsensee/hiddenlayer.git@more_plotted_details#egg=hiddenlayer
