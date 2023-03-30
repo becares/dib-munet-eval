@@ -1,4 +1,2 @@
-dataset/20*/*
-nnUnet/*
 src/__pycache__/*
-env/*
+nnUnet/*
